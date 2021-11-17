@@ -1,0 +1,95 @@
+.mother_1{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+}
+.mother_1 .child_1{
+    width: 600px;
+    height: 100px;
+    background-color: red;
+}
+.mother_1 .child_2{
+    width: 600px;
+    height: 100px;
+    background-color: blue;
+}
+.mother_1 .child_3{
+    width: 600px;
+    height: 100px;
+    background-color: green;
+}
+.mother_2{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+}
+.mother_2 .child_1{
+    width: 600px;
+    height: 100px;
+    display: flex;
+}
+.mother_2 .child_1 .baby_1{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+.mother_2 .child_1 .baby_2{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+}
+.mother_2 .child_1 .baby_3{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+.mother_2 .child_2{
+    width: 600px;
+    height: 200px;
+    background-color: yellow;
+}
+.mother_2 .child_3{
+    width: 600px;
+    height: 200px;
+    display: flex;
+}
+.mother_2 .child_3 .baby_1{
+    width: 300px;
+    height: 100px;
+    background-color: grey;
+}
+.mother_2 .child_3 .baby_2{
+    width: 300px;
+    height: 100px;
+    background-color: black;
+}
+.mother_3{
+    width: 800px;
+    height: 300px;
+    background-color: greenyellow;
+    justify-content: space-around;
+    display: flex;
+    margin: 150px auto;
+}
+.mother_3 .child_1{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin: 25px 0;
+}
+.mother_3 .child_2{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    margin: 25px 0;
+}
+.mother_3 .child_3{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    margin: 25px 0;
+}
+h3{
+    text-align: center;
+}
+
